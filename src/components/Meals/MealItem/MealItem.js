@@ -12,7 +12,7 @@ function MealItem(props) {
     cartContext.addItem({
       id: meal.id,
       name: meal.name,
-      amount: amount,
+      amount,
       price: meal.price,
     });
   };
